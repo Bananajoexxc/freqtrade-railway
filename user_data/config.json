@@ -18,7 +18,7 @@
         "order_book_top": 1
     },
     "exchange": {
-        "name": "binance",
+        "name": "gateio",
         "key": "",
         "secret": "",
         "pair_whitelist": ["SOL/USDT:USDT"],
