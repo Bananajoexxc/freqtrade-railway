@@ -5,7 +5,8 @@
     "tradable_balance_ratio": 0.95,
     "dry_run": true,
     "dry_run_wallet": 10000,
-    "trading_mode": "spot",
+    "trading_mode": "futures",
+    "margin_mode": "isolated",
     "entry_pricing": {
         "price_side": "same",
         "use_order_book": true,
@@ -17,7 +18,7 @@
         "order_book_top": 1
     },
     "exchange": {
-        "name": "gateio",
+        "name": "mexc",
         "key": "",
         "secret": "",
         "pair_whitelist": ["SOL/USDT:USDT"],
